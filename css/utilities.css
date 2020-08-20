@@ -1,0 +1,128 @@
+/* Colors */
+
+.bg-light {
+    background: #fcfffe;
+}
+
+.bg-medium {
+    background: #95cfc1;
+}
+
+
+.bg-dark {
+    background: #13a880;
+}
+/* Button */
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .btn:hover {
+    background-color: #fcfffe;
+    opacity: 0.4;
+  }
+
+  .hero .content .btn {
+    margin-top: 60px;
+}
+
+.btn2 {
+    display: inline-block;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+    border: black 2px solid;
+    border-radius: 8px;
+    padding: 0.45rem 1rem;
+    margin: 1rem 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .btn2:hover {
+    background-color: #fcfffe;
+    opacity: 0.4;
+  }
+
+
+ /* Flex items */
+
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
+
+/* Section header */
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*
+.section-header h3 {
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+  margin: 20px 0;
+}
+*/
+
+.section-padding {
+  padding: 75px 20px 45px;
+}
+
+/* galerija */
+
+#photo-gallery {
+  background: #fcfffe;
+}
+
+.image-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.single-img {
+  padding: 0 20px 20px;
+}
+
+.dugme {
+  text-align: center;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto; /* uvek pokazuje background, ne ide izvan nje */
+  padding: 20px 20px;
+}
+
+.container p {
+  text-align: justify;
+}
+
